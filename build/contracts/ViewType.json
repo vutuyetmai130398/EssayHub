@@ -1,0 +1,389 @@
+{
+  "contractName": "ViewType",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "essay",
+          "type": "address"
+        }
+      ],
+      "name": "ViewProcess",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.22;\nimport \"./EssayInfo.sol\";\nimport \"./onlyStudent.sol\";\n\ninterface ViewType {\n  function ViewProcess(EssayInfo essay) external view returns (uint, string);\n}\n",
+  "sourcePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/ViewType.sol",
+  "ast": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/ViewType.sol",
+    "exportedSymbols": {
+      "ViewType": [
+        440
+      ]
+    },
+    "id": 441,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 428,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:6"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayInfo.sol",
+        "file": "./EssayInfo.sol",
+        "id": 429,
+        "nodeType": "ImportDirective",
+        "scope": 441,
+        "sourceUnit": 178,
+        "src": "25:25:6",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/onlyStudent.sol",
+        "file": "./onlyStudent.sol",
+        "id": 430,
+        "nodeType": "ImportDirective",
+        "scope": 441,
+        "sourceUnit": 507,
+        "src": "51:27:6",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 440,
+        "linearizedBaseContracts": [
+          440
+        ],
+        "name": "ViewType",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 439,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "ViewProcess",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 433,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 432,
+                  "name": "essay",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 439,
+                  "src": "124:15:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_EssayInfo_$177",
+                    "typeString": "contract EssayInfo"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 431,
+                    "name": "EssayInfo",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 177,
+                    "src": "124:9:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_EssayInfo_$177",
+                      "typeString": "contract EssayInfo"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "123:17:6"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 435,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 439,
+                  "src": "164:4:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 434,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "164:4:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 437,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 439,
+                  "src": "170:6:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 436,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "170:6:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "163:14:6"
+            },
+            "scope": 440,
+            "src": "103:75:6",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 441,
+        "src": "80:100:6"
+      }
+    ],
+    "src": "0:181:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/ViewType.sol",
+    "exportedSymbols": {
+      "ViewType": [
+        440
+      ]
+    },
+    "id": 441,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 428,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:6"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayInfo.sol",
+        "file": "./EssayInfo.sol",
+        "id": 429,
+        "nodeType": "ImportDirective",
+        "scope": 441,
+        "sourceUnit": 178,
+        "src": "25:25:6",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/onlyStudent.sol",
+        "file": "./onlyStudent.sol",
+        "id": 430,
+        "nodeType": "ImportDirective",
+        "scope": 441,
+        "sourceUnit": 507,
+        "src": "51:27:6",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 440,
+        "linearizedBaseContracts": [
+          440
+        ],
+        "name": "ViewType",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 439,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "ViewProcess",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 433,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 432,
+                  "name": "essay",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 439,
+                  "src": "124:15:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_EssayInfo_$177",
+                    "typeString": "contract EssayInfo"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 431,
+                    "name": "EssayInfo",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 177,
+                    "src": "124:9:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_EssayInfo_$177",
+                      "typeString": "contract EssayInfo"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "123:17:6"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 435,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 439,
+                  "src": "164:4:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 434,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "164:4:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 437,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 439,
+                  "src": "170:6:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 436,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "170:6:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "163:14:6"
+            },
+            "scope": 440,
+            "src": "103:75:6",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 441,
+        "src": "80:100:6"
+      }
+    ],
+    "src": "0:181:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-09-05T14:21:47.040Z"
+}

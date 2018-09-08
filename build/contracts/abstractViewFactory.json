@@ -1,0 +1,385 @@
+{
+  "contractName": "abstractViewFactory",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "getView",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.22;\nimport \"./ViewType.sol\";\n\ncontract abstractViewFactory {\n  constructor() public {\n  }\n\n  function getView(string) public returns (ViewType);\n}\n",
+  "sourcePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/abstractViewFactory.sol",
+  "ast": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/abstractViewFactory.sol",
+    "exportedSymbols": {
+      "abstractViewFactory": [
+        455
+      ]
+    },
+    "id": 456,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 442,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:7"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/ViewType.sol",
+        "file": "./ViewType.sol",
+        "id": 443,
+        "nodeType": "ImportDirective",
+        "scope": 456,
+        "sourceUnit": 441,
+        "src": "25:24:7",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 455,
+        "linearizedBaseContracts": [
+          455
+        ],
+        "name": "abstractViewFactory",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 446,
+              "nodeType": "Block",
+              "src": "105:5:7",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 447,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 444,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 445,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:0:7"
+            },
+            "scope": 455,
+            "src": "84:26:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 454,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "getView",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 450,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 449,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 454,
+                  "src": "131:6:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 448,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "131:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "130:8:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 453,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 452,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 454,
+                  "src": "155:8:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ViewType_$440",
+                    "typeString": "contract ViewType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 451,
+                    "name": "ViewType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 440,
+                    "src": "155:8:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ViewType_$440",
+                      "typeString": "contract ViewType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "154:10:7"
+            },
+            "scope": 455,
+            "src": "114:51:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 456,
+        "src": "51:116:7"
+      }
+    ],
+    "src": "0:168:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/abstractViewFactory.sol",
+    "exportedSymbols": {
+      "abstractViewFactory": [
+        455
+      ]
+    },
+    "id": 456,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 442,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:7"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/ViewType.sol",
+        "file": "./ViewType.sol",
+        "id": 443,
+        "nodeType": "ImportDirective",
+        "scope": 456,
+        "sourceUnit": 441,
+        "src": "25:24:7",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 455,
+        "linearizedBaseContracts": [
+          455
+        ],
+        "name": "abstractViewFactory",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 446,
+              "nodeType": "Block",
+              "src": "105:5:7",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 447,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 444,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 445,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:0:7"
+            },
+            "scope": 455,
+            "src": "84:26:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 454,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "getView",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 450,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 449,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 454,
+                  "src": "131:6:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 448,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "131:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "130:8:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 453,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 452,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 454,
+                  "src": "155:8:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ViewType_$440",
+                    "typeString": "contract ViewType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 451,
+                    "name": "ViewType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 440,
+                    "src": "155:8:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ViewType_$440",
+                      "typeString": "contract ViewType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "154:10:7"
+            },
+            "scope": 455,
+            "src": "114:51:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 456,
+        "src": "51:116:7"
+      }
+    ],
+    "src": "0:168:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-09-05T14:21:47.026Z"
+}

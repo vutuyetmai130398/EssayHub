@@ -1,0 +1,2079 @@
+{
+  "contractName": "Science",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "essays",
+          "type": "address[]"
+        }
+      ],
+      "name": "printEssay",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506106cf806100206000396000f300608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806364dbbb1e14610046575b600080fd5b34801561005257600080fd5b5061007f6004803603810190808035906020019082018035906020019190919293919293905050506100d6565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156100c25780820151818401526020810190506100a7565b505050509050019250505060405180910390f35b606080606060006040805190810160405280600781526020017f534349454e434500000000000000000000000000000000000000000000000000815250925060206040519081016040528060008152509150600090505b8585905081101561061157858582818110151561014657fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663902fbc3f6040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156101c657600080fd5b505af11580156101da573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060e081101561020457600080fd5b81019080805164010000000081111561021c57600080fd5b8281019050602081018481111561023257600080fd5b815185600182028301116401000000008211171561024f57600080fd5b5050929190602001805164010000000081111561026b57600080fd5b8281019050602081018481111561028157600080fd5b815185600182028301116401000000008211171561029e57600080fd5b505092919060200180516401000000008111156102ba57600080fd5b828101905060208101848111156102d057600080fd5b81518560018202830111640100000000821117156102ed57600080fd5b5050929190602001805164010000000081111561030957600080fd5b8281019050602081018481111561031f57600080fd5b815185600182028301116401000000008211171561033c57600080fd5b5050929190602001805164010000000081111561035857600080fd5b8281019050602081018481111561036e57600080fd5b815185600182028301116401000000008211171561038b57600080fd5b505092919060200180519060200190929190805190602001909291905050509091929394955090919293945090919293509091925090505080925050826040516020018082805190602001908083835b60208310151561040057805182526020820191506020810190506020830392506103db565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040516020818303038152906040526040518082805190602001908083835b6020831015156104695780518252602082019150602081019050602083039250610444565b6001836020036101000a038019825116818451168082178552505050505050905001915050604051809103902060001916826040516020018082805190602001908083835b6020831015156104d357805182526020820191506020810190506020830392506104ae565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040516020818303038152906040526040518082805190602001908083835b60208310151561053c5780518252602082019150602081019050602083039250610517565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040518091039020600019161415610604576000868683818110151561058357fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1690806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b808060010191505061012d565b600080548060200260200160405190810160405280929190818152602001828054801561069357602002820191906000526020600020905b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019060010190808311610649575b50505050509350505050929150505600a165627a7a7230582084d8a48836153922c6b84e626321eb4e0e4b81e29fd7c978bd434c4333a1551f0029",
+  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806364dbbb1e14610046575b600080fd5b34801561005257600080fd5b5061007f6004803603810190808035906020019082018035906020019190919293919293905050506100d6565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156100c25780820151818401526020810190506100a7565b505050509050019250505060405180910390f35b606080606060006040805190810160405280600781526020017f534349454e434500000000000000000000000000000000000000000000000000815250925060206040519081016040528060008152509150600090505b8585905081101561061157858582818110151561014657fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663902fbc3f6040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156101c657600080fd5b505af11580156101da573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060e081101561020457600080fd5b81019080805164010000000081111561021c57600080fd5b8281019050602081018481111561023257600080fd5b815185600182028301116401000000008211171561024f57600080fd5b5050929190602001805164010000000081111561026b57600080fd5b8281019050602081018481111561028157600080fd5b815185600182028301116401000000008211171561029e57600080fd5b505092919060200180516401000000008111156102ba57600080fd5b828101905060208101848111156102d057600080fd5b81518560018202830111640100000000821117156102ed57600080fd5b5050929190602001805164010000000081111561030957600080fd5b8281019050602081018481111561031f57600080fd5b815185600182028301116401000000008211171561033c57600080fd5b5050929190602001805164010000000081111561035857600080fd5b8281019050602081018481111561036e57600080fd5b815185600182028301116401000000008211171561038b57600080fd5b505092919060200180519060200190929190805190602001909291905050509091929394955090919293945090919293509091925090505080925050826040516020018082805190602001908083835b60208310151561040057805182526020820191506020810190506020830392506103db565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040516020818303038152906040526040518082805190602001908083835b6020831015156104695780518252602082019150602081019050602083039250610444565b6001836020036101000a038019825116818451168082178552505050505050905001915050604051809103902060001916826040516020018082805190602001908083835b6020831015156104d357805182526020820191506020810190506020830392506104ae565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040516020818303038152906040526040518082805190602001908083835b60208310151561053c5780518252602082019150602081019050602083039250610517565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040518091039020600019161415610604576000868683818110151561058357fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1690806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b808060010191505061012d565b600080548060200260200160405190810160405280929190818152602001828054801561069357602002820191906000526020600020905b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019060010190808311610649575b50505050509350505050929150505600a165627a7a7230582084d8a48836153922c6b84e626321eb4e0e4b81e29fd7c978bd434c4333a1551f0029",
+  "sourceMap": "78:499:4:-;;;112:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;112:26:4;78:499;;;;;;",
+  "deployedSourceMap": "78:499:4:-;;;;;;;;;;;;;;;;;;;;;;;;175:400;;8:9:-1;5:2;;;30:1;27;20:12;5:2;175:400:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;175:400:4;;;;;;;;;;;;;;;;;;233:11;252:20;290:22;327:6;252:32;;;;;;;;;;;;;;;;;;;;290:27;;;;;;;;;;;;;;;334:1;327:8;;323:223;339:6;;:13;;337:1;:15;323:223;;;385:6;;392:1;385:9;;;;;;;;;;;;;;;;;:18;;;:20;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;385:20:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;385:20:4;;;;;;39:16:-1;36:1;17:17;2:54;385:20:4;101:4:-1;97:9;90:4;84;80:15;76:31;69:5;65:43;126:6;120:4;113:20;0:138;13:3;8;5:12;2:2;;;30:1;27;20:12;2:2;385:20:4;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;385:20:4;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;385:20:4;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;385:20:4;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;385:20:4;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;385:20:4;;;;;;;;;;;;;;;;;;;;;;;;;;366:39;;;;;;;;;;;;;;;;;;;;;;;;;;;;;484:6;467:24;;;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;467:24:4;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;467:24:4;;;457:35;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;457:35:4;;;;;;;;;;;;;;;;416:76;;;443:8;426:26;;;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;426:26:4;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;426:26:4;;;416:37;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;416:37:4;;;;;;;;;;;;;;;;:76;;;;413:127;;;503:12;521:6;;528:1;521:9;;;;;;;;;;;;;;;;;503:28;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;503:28:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;413:127;354:3;;;;;;;323:223;;;558:12;551:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;175:400;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.22;\nimport \"./EssayType.sol\";\nimport \"./EssayInfo.sol\";\n\ncontract Science is EssayType {\n  constructor() public {\n  }\n  \n  EssayInfo[] scienceEssay;\n  \n  function printEssay(EssayInfo[] essays) external returns (EssayInfo[]) {\n    string memory socStr = \"SCIENCE\";\n    string memory typefile = \"\";\n    for(uint i=0; i<essays.length; i++){\n      (,,,,typefile,,) = essays[i].getEssay();\n      if(keccak256(abi.encodePacked(typefile)) == keccak256(abi.encodePacked(socStr))){\n        scienceEssay.push(essays[i]);\n      }\n    }\n    return scienceEssay;\n  }\n}\n",
+  "sourcePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/Science.sol",
+  "ast": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/Science.sol",
+    "exportedSymbols": {
+      "Science": [
+        294
+      ]
+    },
+    "id": 295,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 217,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:4"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayType.sol",
+        "file": "./EssayType.sol",
+        "id": 218,
+        "nodeType": "ImportDirective",
+        "scope": 295,
+        "sourceUnit": 216,
+        "src": "25:25:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayInfo.sol",
+        "file": "./EssayInfo.sol",
+        "id": 219,
+        "nodeType": "ImportDirective",
+        "scope": 295,
+        "sourceUnit": 203,
+        "src": "51:25:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 220,
+              "name": "EssayType",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 215,
+              "src": "98:9:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_EssayType_$215",
+                "typeString": "contract EssayType"
+              }
+            },
+            "id": 221,
+            "nodeType": "InheritanceSpecifier",
+            "src": "98:9:4"
+          }
+        ],
+        "contractDependencies": [
+          215
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 294,
+        "linearizedBaseContracts": [
+          294,
+          215
+        ],
+        "name": "Science",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 224,
+              "nodeType": "Block",
+              "src": "133:5:4",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 225,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 222,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "123:2:4"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 223,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "133:0:4"
+            },
+            "scope": 294,
+            "src": "112:26:4",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 228,
+            "name": "scienceEssay",
+            "nodeType": "VariableDeclaration",
+            "scope": 294,
+            "src": "144:24:4",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage",
+              "typeString": "contract EssayInfo[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 226,
+                "name": "EssayInfo",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 202,
+                "src": "144:9:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_EssayInfo_$202",
+                  "typeString": "contract EssayInfo"
+                }
+              },
+              "id": 227,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "144:11:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                "typeString": "contract EssayInfo[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 292,
+              "nodeType": "Block",
+              "src": "246:329:4",
+              "statements": [
+                {
+                  "assignments": [
+                    238
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 238,
+                      "name": "socStr",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 293,
+                      "src": "252:20:4",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 237,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "252:6:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 240,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "hexValue": "534349454e4345",
+                    "id": 239,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "275:9:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_81250f9e8eec26dd0a2f82d956ad30f335f7acdbbca72c4618b8fb12200f1cbe",
+                      "typeString": "literal_string \"SCIENCE\""
+                    },
+                    "value": "SCIENCE"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "252:32:4"
+                },
+                {
+                  "assignments": [
+                    242
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 242,
+                      "name": "typefile",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 293,
+                      "src": "290:22:4",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 241,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "290:6:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 244,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "hexValue": "",
+                    "id": 243,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "315:2:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+                      "typeString": "literal_string \"\""
+                    },
+                    "value": ""
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "290:27:4"
+                },
+                {
+                  "body": {
+                    "id": 288,
+                    "nodeType": "Block",
+                    "src": "358:188:4",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 263,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "components": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "argumentTypes": null,
+                                "id": 256,
+                                "name": "typefile",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 242,
+                                "src": "371:8:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_string_memory_ptr",
+                                  "typeString": "string memory"
+                                }
+                              },
+                              null,
+                              null
+                            ],
+                            "id": 257,
+                            "isConstant": false,
+                            "isInlineArray": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "nodeType": "TupleExpression",
+                            "src": "366:16:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$__$__$__$__$_t_string_memory_ptr_$__$__$",
+                              "typeString": "tuple(,,,,string memory,,)"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "argumentTypes": null,
+                                "baseExpression": {
+                                  "argumentTypes": null,
+                                  "id": 258,
+                                  "name": "essays",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 231,
+                                  "src": "385:6:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                                    "typeString": "contract EssayInfo[] calldata"
+                                  }
+                                },
+                                "id": 260,
+                                "indexExpression": {
+                                  "argumentTypes": null,
+                                  "id": 259,
+                                  "name": "i",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 246,
+                                  "src": "392:1:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "IndexAccess",
+                                "src": "385:9:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_EssayInfo_$202",
+                                  "typeString": "contract EssayInfo"
+                                }
+                              },
+                              "id": 261,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "getEssay",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 201,
+                              "src": "385:18:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint32_$_t_address_$",
+                                "typeString": "function () view external returns (string memory,string memory,string memory,string memory,string memory,uint32,address)"
+                              }
+                            },
+                            "id": 262,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "385:20:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint32_$_t_address_$",
+                              "typeString": "tuple(string memory,string memory,string memory,string memory,string memory,uint32,address)"
+                            }
+                          },
+                          "src": "366:39:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 264,
+                        "nodeType": "ExpressionStatement",
+                        "src": "366:39:4"
+                      },
+                      {
+                        "condition": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          },
+                          "id": 277,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "arguments": [
+                              {
+                                "argumentTypes": null,
+                                "arguments": [
+                                  {
+                                    "argumentTypes": null,
+                                    "id": 268,
+                                    "name": "typefile",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 242,
+                                    "src": "443:8:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 266,
+                                    "name": "abi",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 570,
+                                    "src": "426:3:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_magic_abi",
+                                      "typeString": "abi"
+                                    }
+                                  },
+                                  "id": 267,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "memberName": "encodePacked",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": null,
+                                  "src": "426:16:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                    "typeString": "function () pure returns (bytes memory)"
+                                  }
+                                },
+                                "id": 269,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "426:26:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              ],
+                              "id": 265,
+                              "name": "keccak256",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 577,
+                              "src": "416:9:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
+                                "typeString": "function () pure returns (bytes32)"
+                              }
+                            },
+                            "id": 270,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "416:37:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "arguments": [
+                              {
+                                "argumentTypes": null,
+                                "arguments": [
+                                  {
+                                    "argumentTypes": null,
+                                    "id": 274,
+                                    "name": "socStr",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 238,
+                                    "src": "484:6:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 272,
+                                    "name": "abi",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 570,
+                                    "src": "467:3:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_magic_abi",
+                                      "typeString": "abi"
+                                    }
+                                  },
+                                  "id": 273,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "memberName": "encodePacked",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": null,
+                                  "src": "467:16:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                    "typeString": "function () pure returns (bytes memory)"
+                                  }
+                                },
+                                "id": 275,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "467:24:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              ],
+                              "id": 271,
+                              "name": "keccak256",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 577,
+                              "src": "457:9:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
+                                "typeString": "function () pure returns (bytes32)"
+                              }
+                            },
+                            "id": 276,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "457:35:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "src": "416:76:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "falseBody": null,
+                        "id": 287,
+                        "nodeType": "IfStatement",
+                        "src": "413:127:4",
+                        "trueBody": {
+                          "id": 286,
+                          "nodeType": "Block",
+                          "src": "493:47:4",
+                          "statements": [
+                            {
+                              "expression": {
+                                "argumentTypes": null,
+                                "arguments": [
+                                  {
+                                    "argumentTypes": null,
+                                    "baseExpression": {
+                                      "argumentTypes": null,
+                                      "id": 281,
+                                      "name": "essays",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 231,
+                                      "src": "521:6:4",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                                        "typeString": "contract EssayInfo[] calldata"
+                                      }
+                                    },
+                                    "id": 283,
+                                    "indexExpression": {
+                                      "argumentTypes": null,
+                                      "id": 282,
+                                      "name": "i",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 246,
+                                      "src": "528:1:4",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    },
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "nodeType": "IndexAccess",
+                                    "src": "521:9:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_EssayInfo_$202",
+                                      "typeString": "contract EssayInfo"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_contract$_EssayInfo_$202",
+                                      "typeString": "contract EssayInfo"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 278,
+                                    "name": "scienceEssay",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 228,
+                                    "src": "503:12:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage",
+                                      "typeString": "contract EssayInfo[] storage ref"
+                                    }
+                                  },
+                                  "id": 280,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "push",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": null,
+                                  "src": "503:17:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_arraypush_nonpayable$_t_contract$_EssayInfo_$202_$returns$_t_uint256_$",
+                                    "typeString": "function (contract EssayInfo) returns (uint256)"
+                                  }
+                                },
+                                "id": 284,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "503:28:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "id": 285,
+                              "nodeType": "ExpressionStatement",
+                              "src": "503:28:4"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 252,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 249,
+                      "name": "i",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 246,
+                      "src": "337:1:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 250,
+                        "name": "essays",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 231,
+                        "src": "339:6:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                          "typeString": "contract EssayInfo[] calldata"
+                        }
+                      },
+                      "id": 251,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "339:13:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "337:15:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 289,
+                  "initializationExpression": {
+                    "assignments": [
+                      246
+                    ],
+                    "declarations": [
+                      {
+                        "constant": false,
+                        "id": 246,
+                        "name": "i",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 293,
+                        "src": "327:6:4",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 245,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "327:4:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      }
+                    ],
+                    "id": 248,
+                    "initialValue": {
+                      "argumentTypes": null,
+                      "hexValue": "30",
+                      "id": 247,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "334:1:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "nodeType": "VariableDeclarationStatement",
+                    "src": "327:8:4"
+                  },
+                  "loopExpression": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 254,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "354:3:4",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "id": 253,
+                        "name": "i",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 246,
+                        "src": "354:1:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 255,
+                    "nodeType": "ExpressionStatement",
+                    "src": "354:3:4"
+                  },
+                  "nodeType": "ForStatement",
+                  "src": "323:223:4"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 290,
+                    "name": "scienceEssay",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 228,
+                    "src": "558:12:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage",
+                      "typeString": "contract EssayInfo[] storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 236,
+                  "id": 291,
+                  "nodeType": "Return",
+                  "src": "551:19:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 293,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "printEssay",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 232,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 231,
+                  "name": "essays",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 293,
+                  "src": "195:18:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 229,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "195:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 230,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "195:11:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "194:20:4"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 236,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 235,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 293,
+                  "src": "233:11:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_memory_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 233,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "233:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 234,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "233:11:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "232:13:4"
+            },
+            "scope": 294,
+            "src": "175:400:4",
+            "stateMutability": "nonpayable",
+            "superFunction": 214,
+            "visibility": "external"
+          }
+        ],
+        "scope": 295,
+        "src": "78:499:4"
+      }
+    ],
+    "src": "0:578:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/Science.sol",
+    "exportedSymbols": {
+      "Science": [
+        294
+      ]
+    },
+    "id": 295,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 217,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:4"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayType.sol",
+        "file": "./EssayType.sol",
+        "id": 218,
+        "nodeType": "ImportDirective",
+        "scope": 295,
+        "sourceUnit": 216,
+        "src": "25:25:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayInfo.sol",
+        "file": "./EssayInfo.sol",
+        "id": 219,
+        "nodeType": "ImportDirective",
+        "scope": 295,
+        "sourceUnit": 203,
+        "src": "51:25:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 220,
+              "name": "EssayType",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 215,
+              "src": "98:9:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_EssayType_$215",
+                "typeString": "contract EssayType"
+              }
+            },
+            "id": 221,
+            "nodeType": "InheritanceSpecifier",
+            "src": "98:9:4"
+          }
+        ],
+        "contractDependencies": [
+          215
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 294,
+        "linearizedBaseContracts": [
+          294,
+          215
+        ],
+        "name": "Science",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 224,
+              "nodeType": "Block",
+              "src": "133:5:4",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 225,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 222,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "123:2:4"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 223,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "133:0:4"
+            },
+            "scope": 294,
+            "src": "112:26:4",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 228,
+            "name": "scienceEssay",
+            "nodeType": "VariableDeclaration",
+            "scope": 294,
+            "src": "144:24:4",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage",
+              "typeString": "contract EssayInfo[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 226,
+                "name": "EssayInfo",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 202,
+                "src": "144:9:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_EssayInfo_$202",
+                  "typeString": "contract EssayInfo"
+                }
+              },
+              "id": 227,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "144:11:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                "typeString": "contract EssayInfo[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 292,
+              "nodeType": "Block",
+              "src": "246:329:4",
+              "statements": [
+                {
+                  "assignments": [
+                    238
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 238,
+                      "name": "socStr",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 293,
+                      "src": "252:20:4",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 237,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "252:6:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 240,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "hexValue": "534349454e4345",
+                    "id": 239,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "275:9:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_81250f9e8eec26dd0a2f82d956ad30f335f7acdbbca72c4618b8fb12200f1cbe",
+                      "typeString": "literal_string \"SCIENCE\""
+                    },
+                    "value": "SCIENCE"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "252:32:4"
+                },
+                {
+                  "assignments": [
+                    242
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 242,
+                      "name": "typefile",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 293,
+                      "src": "290:22:4",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 241,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "290:6:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 244,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "hexValue": "",
+                    "id": 243,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "315:2:4",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+                      "typeString": "literal_string \"\""
+                    },
+                    "value": ""
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "290:27:4"
+                },
+                {
+                  "body": {
+                    "id": 288,
+                    "nodeType": "Block",
+                    "src": "358:188:4",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 263,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "components": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "argumentTypes": null,
+                                "id": 256,
+                                "name": "typefile",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 242,
+                                "src": "371:8:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_string_memory_ptr",
+                                  "typeString": "string memory"
+                                }
+                              },
+                              null,
+                              null
+                            ],
+                            "id": 257,
+                            "isConstant": false,
+                            "isInlineArray": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "nodeType": "TupleExpression",
+                            "src": "366:16:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$__$__$__$__$_t_string_memory_ptr_$__$__$",
+                              "typeString": "tuple(,,,,string memory,,)"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "argumentTypes": null,
+                                "baseExpression": {
+                                  "argumentTypes": null,
+                                  "id": 258,
+                                  "name": "essays",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 231,
+                                  "src": "385:6:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                                    "typeString": "contract EssayInfo[] calldata"
+                                  }
+                                },
+                                "id": 260,
+                                "indexExpression": {
+                                  "argumentTypes": null,
+                                  "id": 259,
+                                  "name": "i",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 246,
+                                  "src": "392:1:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "IndexAccess",
+                                "src": "385:9:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_EssayInfo_$202",
+                                  "typeString": "contract EssayInfo"
+                                }
+                              },
+                              "id": 261,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "getEssay",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 201,
+                              "src": "385:18:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint32_$_t_address_$",
+                                "typeString": "function () view external returns (string memory,string memory,string memory,string memory,string memory,uint32,address)"
+                              }
+                            },
+                            "id": 262,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "385:20:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint32_$_t_address_$",
+                              "typeString": "tuple(string memory,string memory,string memory,string memory,string memory,uint32,address)"
+                            }
+                          },
+                          "src": "366:39:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 264,
+                        "nodeType": "ExpressionStatement",
+                        "src": "366:39:4"
+                      },
+                      {
+                        "condition": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          },
+                          "id": 277,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "arguments": [
+                              {
+                                "argumentTypes": null,
+                                "arguments": [
+                                  {
+                                    "argumentTypes": null,
+                                    "id": 268,
+                                    "name": "typefile",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 242,
+                                    "src": "443:8:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 266,
+                                    "name": "abi",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 570,
+                                    "src": "426:3:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_magic_abi",
+                                      "typeString": "abi"
+                                    }
+                                  },
+                                  "id": 267,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "memberName": "encodePacked",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": null,
+                                  "src": "426:16:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                    "typeString": "function () pure returns (bytes memory)"
+                                  }
+                                },
+                                "id": 269,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "426:26:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              ],
+                              "id": 265,
+                              "name": "keccak256",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 577,
+                              "src": "416:9:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
+                                "typeString": "function () pure returns (bytes32)"
+                              }
+                            },
+                            "id": 270,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "416:37:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "arguments": [
+                              {
+                                "argumentTypes": null,
+                                "arguments": [
+                                  {
+                                    "argumentTypes": null,
+                                    "id": 274,
+                                    "name": "socStr",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 238,
+                                    "src": "484:6:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_string_memory_ptr",
+                                      "typeString": "string memory"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 272,
+                                    "name": "abi",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 570,
+                                    "src": "467:3:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_magic_abi",
+                                      "typeString": "abi"
+                                    }
+                                  },
+                                  "id": 273,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "memberName": "encodePacked",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": null,
+                                  "src": "467:16:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                    "typeString": "function () pure returns (bytes memory)"
+                                  }
+                                },
+                                "id": 275,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "467:24:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_bytes_memory_ptr",
+                                  "typeString": "bytes memory"
+                                }
+                              ],
+                              "id": 271,
+                              "name": "keccak256",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 577,
+                              "src": "457:9:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
+                                "typeString": "function () pure returns (bytes32)"
+                              }
+                            },
+                            "id": 276,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "457:35:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "src": "416:76:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "falseBody": null,
+                        "id": 287,
+                        "nodeType": "IfStatement",
+                        "src": "413:127:4",
+                        "trueBody": {
+                          "id": 286,
+                          "nodeType": "Block",
+                          "src": "493:47:4",
+                          "statements": [
+                            {
+                              "expression": {
+                                "argumentTypes": null,
+                                "arguments": [
+                                  {
+                                    "argumentTypes": null,
+                                    "baseExpression": {
+                                      "argumentTypes": null,
+                                      "id": 281,
+                                      "name": "essays",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 231,
+                                      "src": "521:6:4",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                                        "typeString": "contract EssayInfo[] calldata"
+                                      }
+                                    },
+                                    "id": 283,
+                                    "indexExpression": {
+                                      "argumentTypes": null,
+                                      "id": 282,
+                                      "name": "i",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 246,
+                                      "src": "528:1:4",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    },
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "nodeType": "IndexAccess",
+                                    "src": "521:9:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_EssayInfo_$202",
+                                      "typeString": "contract EssayInfo"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_contract$_EssayInfo_$202",
+                                      "typeString": "contract EssayInfo"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 278,
+                                    "name": "scienceEssay",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 228,
+                                    "src": "503:12:4",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage",
+                                      "typeString": "contract EssayInfo[] storage ref"
+                                    }
+                                  },
+                                  "id": 280,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "push",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": null,
+                                  "src": "503:17:4",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_arraypush_nonpayable$_t_contract$_EssayInfo_$202_$returns$_t_uint256_$",
+                                    "typeString": "function (contract EssayInfo) returns (uint256)"
+                                  }
+                                },
+                                "id": 284,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "503:28:4",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "id": 285,
+                              "nodeType": "ExpressionStatement",
+                              "src": "503:28:4"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 252,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 249,
+                      "name": "i",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 246,
+                      "src": "337:1:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 250,
+                        "name": "essays",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 231,
+                        "src": "339:6:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                          "typeString": "contract EssayInfo[] calldata"
+                        }
+                      },
+                      "id": 251,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "339:13:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "337:15:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 289,
+                  "initializationExpression": {
+                    "assignments": [
+                      246
+                    ],
+                    "declarations": [
+                      {
+                        "constant": false,
+                        "id": 246,
+                        "name": "i",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 293,
+                        "src": "327:6:4",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 245,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "327:4:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      }
+                    ],
+                    "id": 248,
+                    "initialValue": {
+                      "argumentTypes": null,
+                      "hexValue": "30",
+                      "id": 247,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "334:1:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "nodeType": "VariableDeclarationStatement",
+                    "src": "327:8:4"
+                  },
+                  "loopExpression": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 254,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "354:3:4",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "id": 253,
+                        "name": "i",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 246,
+                        "src": "354:1:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 255,
+                    "nodeType": "ExpressionStatement",
+                    "src": "354:3:4"
+                  },
+                  "nodeType": "ForStatement",
+                  "src": "323:223:4"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 290,
+                    "name": "scienceEssay",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 228,
+                    "src": "558:12:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage",
+                      "typeString": "contract EssayInfo[] storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 236,
+                  "id": 291,
+                  "nodeType": "Return",
+                  "src": "551:19:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 293,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "printEssay",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 232,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 231,
+                  "name": "essays",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 293,
+                  "src": "195:18:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 229,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "195:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 230,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "195:11:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "194:20:4"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 236,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 235,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 293,
+                  "src": "233:11:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_memory_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 233,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "233:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 234,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "233:11:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "232:13:4"
+            },
+            "scope": 294,
+            "src": "175:400:4",
+            "stateMutability": "nonpayable",
+            "superFunction": 214,
+            "visibility": "external"
+          }
+        ],
+        "scope": 295,
+        "src": "78:499:4"
+      }
+    ],
+    "src": "0:578:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-09-04T13:11:15.741Z"
+}

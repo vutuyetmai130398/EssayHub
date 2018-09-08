@@ -1,0 +1,355 @@
+{
+  "contractName": "EssayType",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "essays",
+          "type": "address[]"
+        }
+      ],
+      "name": "printEssay",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.22;\nimport \"./EssayInfo.sol\";\n\ninterface EssayType {\n  function printEssay(EssayInfo[] essays) external returns (EssayInfo[]);\n}\n",
+  "sourcePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayType.sol",
+  "ast": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayType.sol",
+    "exportedSymbols": {
+      "EssayType": [
+        215
+      ]
+    },
+    "id": 216,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 204,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayInfo.sol",
+        "file": "./EssayInfo.sol",
+        "id": 205,
+        "nodeType": "ImportDirective",
+        "scope": 216,
+        "sourceUnit": 203,
+        "src": "25:25:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 215,
+        "linearizedBaseContracts": [
+          215
+        ],
+        "name": "EssayType",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 214,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "printEssay",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 209,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 208,
+                  "name": "essays",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 214,
+                  "src": "96:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 206,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "96:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 207,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "96:11:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "95:20:3"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 213,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 212,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 214,
+                  "src": "134:11:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_memory_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 210,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "134:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 211,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "134:11:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "133:13:3"
+            },
+            "scope": 215,
+            "src": "76:71:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 216,
+        "src": "52:97:3"
+      }
+    ],
+    "src": "0:150:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayType.sol",
+    "exportedSymbols": {
+      "EssayType": [
+        215
+      ]
+    },
+    "id": 216,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 204,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "absolutePath": "/home/blockchain/Desktop/CityNowProject/projects/UniversityEssayHub/contracts/EssayInfo.sol",
+        "file": "./EssayInfo.sol",
+        "id": 205,
+        "nodeType": "ImportDirective",
+        "scope": 216,
+        "sourceUnit": 203,
+        "src": "25:25:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 215,
+        "linearizedBaseContracts": [
+          215
+        ],
+        "name": "EssayType",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 214,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "printEssay",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 209,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 208,
+                  "name": "essays",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 214,
+                  "src": "96:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_calldata_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 206,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "96:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 207,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "96:11:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "95:20:3"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 213,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 212,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 214,
+                  "src": "134:11:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_memory_ptr",
+                    "typeString": "contract EssayInfo[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 210,
+                      "name": "EssayInfo",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 202,
+                      "src": "134:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_EssayInfo_$202",
+                        "typeString": "contract EssayInfo"
+                      }
+                    },
+                    "id": 211,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "134:11:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_contract$_EssayInfo_$202_$dyn_storage_ptr",
+                      "typeString": "contract EssayInfo[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "133:13:3"
+            },
+            "scope": 215,
+            "src": "76:71:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 216,
+        "src": "52:97:3"
+      }
+    ],
+    "src": "0:150:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-09-04T13:11:15.740Z"
+}

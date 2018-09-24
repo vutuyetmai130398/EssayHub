@@ -1,7 +1,6 @@
 {
-  "name": "pet-shop",
+  "name": "test1",
   "version": "1.0.0",
-  "description": "",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -14,5 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
-  }
+  },
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "ipfs-api": "^24.0.1",
+    "multihashes": "^0.4.14",
+    "react-file-reader": "^1.1.4",
+    "sha256": "^0.2.0",
+    "web3": "github:ethereum/web3.js"
+  },
+  "description": ""
 }
